@@ -1,0 +1,125 @@
+{
+  "success": "true",
+  "data": [
+    {
+      "id": 1,
+      "name": "Dan Jones",
+      "city": "Los Angeles",
+      "team": "Stockholm Eagles",
+      "score": 430,
+      "percentWins": 30
+    },
+    {
+      "id": 2,
+      "name": "Harry Smith",
+      "city": "Dubai",
+      "team": "Paris Lions",
+      "score": 120,
+      "percentWins": 50
+    },
+    {
+      "id": 3,
+      "name": "Peter Holmes",
+      "city": "Stockholm",
+      "team": "Washington Ducks",
+      "score": 90,
+      "percentWins": 55
+    },
+    {
+      "id": 4,
+      "name": "Jacob Reese",
+      "city": "Moscow",
+      "team": "Washington Ducks",
+      "score": 500,
+      "percentWins": 43
+    },
+    {
+      "id": 5,
+      "name": "Gilles Girard",
+      "city": "Paris",
+      "team": "Moscow Bears",
+      "score": 800,
+      "percentWins": 88
+    },
+    {
+      "id": 6,
+      "name": "Dan Jacobsen",
+      "city": "Moscow",
+      "team": "Paris Lions",
+      "score": 920,
+      "percentWins": 93
+    },
+    {
+      "id": 7,
+      "name": "Walter Cruise",
+      "city": "Barcelona",
+      "team": "Stockholm Eagles",
+      "score": 100,
+      "percentWins": 44
+    },
+    {
+      "id": 8,
+      "name": "Bill Nielsen",
+      "city": "Madrid",
+      "team": "Stockholm Eagles",
+      "score": 750,
+      "percentWins": 55
+    },
+    {
+      "id": 9,
+      "name": "Gareth Freeman",
+      "city": "Chicago",
+      "team": "Moscow Bears",
+      "score": 310,
+      "percentWins": 33
+    },
+    {
+      "id": 10,
+      "name": "Ben Newman",
+      "city": "Los Angeles",
+      "team": "Washington Ducks",
+      "score": 670,
+      "percentWins": 66
+    },
+    {
+      "id": 11,
+      "name": "Garry Miller",
+      "city": "Paris",
+      "team": "Paris Lions",
+      "score": 820,
+      "percentWins": 80
+    },
+    {
+      "id": 12,
+      "name": "Jim Knowles",
+      "city": "Dubai",
+      "team": "Stockholm Eagles",
+      "score": 440,
+      "percentWins": 53
+    },
+    {
+      "id": 13,
+      "name": "Victor Reddy",
+      "city": "London",
+      "team": "Moscow Bears",
+      "score": 960,
+      "percentWins": 93
+    },
+    {
+      "id": 14,
+      "name": "Bradley May",
+      "city": "Los Angeles",
+      "team": "Stockholm Eagles",
+      "score": 200,
+      "percentWins": 40
+    },
+    {
+      "id": 15,
+      "name": "Wesley Malone",
+      "city": "Berlin",
+      "team": "Washington Ducks",
+      "score": 760,
+      "percentWins": 29
+    }
+  ]
+}

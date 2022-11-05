@@ -1,0 +1,80 @@
+:root {
+  --blue: #3083fd;
+  --beige: #e3e3e3;
+  --light-grey: #f8f8f8;
+  --medium-grey: #c9cace;
+  --dark-grey: #787883;
+  --green: #27ca73;
+  --light-green: #aee6b5;
+  --red: #e53f6b;
+  --light-red: #eeb7b1;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: Lato, "Open Sans", Helvetica, Arial, sans-serif;
+  font-size: 1rem;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+a {
+  text-decoration: none;
+  color: var(--blue);
+}
+
+.page-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-bottom: 2rem;
+}
+
+.page-text-container {
+  max-width: 300px;
+  padding: 1rem;
+}
+
+.page-text-container ul {
+  padding-top: 1.5rem;
+  padding-left: 1rem;
+}
+
+.page-title {
+  padding-bottom: 1rem;
+}
+
+.page-btn-container {
+  padding: 2rem 0;
+}
+
+.page-btn-container button {
+  padding: 1rem;
+  background-color: var(--blue);
+  color: white;
+  border-radius: 0.5rem;
+  font-size: 1.15rem;
+  border: none;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease;
+}
+
+.page-btn-container button:hover {
+  cursor: pointer;
+  filter: brightness(115%);
+}
