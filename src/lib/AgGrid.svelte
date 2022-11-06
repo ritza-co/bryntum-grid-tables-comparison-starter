@@ -1,10 +1,11 @@
 <script>
-  import { onMount } from "svelte";
+  import { onDestroy, onMount } from "svelte";
   import { Grid } from "ag-grid-enterprise";
   import "ag-grid-enterprise/styles/ag-grid.css";
   import "ag-grid-enterprise/styles/agGridAlpineFont.css";
   import "ag-grid-enterprise/styles/ag-theme-alpine.css";
 
+  let grid = null;
   let gridContainer;
 
   function getColumnDefs() {
@@ -42,6 +43,12 @@
 
   onMount(() => {
     new Grid(gridContainer, gridOptions);
+  });
+
+  onDestroy(() => {
+    if (grid) {
+      gridOptions.api.destroy();
+    }
   });
 </script>
 

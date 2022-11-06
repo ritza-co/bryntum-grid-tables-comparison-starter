@@ -1,9 +1,9 @@
 <script>
   import "datatables.net-dt/css/jquery.dataTables.min.css";
   import jQuery from "jquery";
-  import { onMount } from "svelte";
+  import { onDestroy, onMount } from "svelte";
 
-  let table;
+  let table = null;
 
   onMount(() => {
     table = jQuery("#datatable").DataTable({
@@ -17,6 +17,12 @@
       ],
     });
     table.init();
+  });
+
+  onDestroy(() => {
+    if (table) {
+      table.destroy();
+    }
   });
 </script>
 
