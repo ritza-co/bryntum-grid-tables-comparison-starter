@@ -42,7 +42,7 @@
   };
 
   onMount(() => {
-    new Grid(gridContainer, gridOptions);
+    grid = new Grid(gridContainer, gridOptions);
   });
 
   onDestroy(() => {
