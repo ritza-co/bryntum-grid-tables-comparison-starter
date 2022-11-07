@@ -1,6 +1,6 @@
 <script>
   import initDt from "datatables.net-dt";
-  import DataTableJS from "../lib/DataTableJS.svelte";
+  import DataTables from "../lib/DataTables.svelte";
 
   initDt();
 </script>
@@ -25,5 +25,5 @@
     </div>
   </div>
 
-  <DataTableJS />
+  <DataTables />
 </div>
