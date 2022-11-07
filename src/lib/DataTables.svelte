@@ -8,6 +8,10 @@
   onMount(() => {
     table = jQuery("#datatable").DataTable({
       paging: false,
+      ajax: {
+        url: "/data/data.json",
+        dataSrc: "data",
+      },
       columns: [
         { data: "name" },
         { data: "city" },
