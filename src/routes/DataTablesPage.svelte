@@ -2,7 +2,7 @@
   import initDt from "datatables.net-dt";
   import DataTables from "../lib/DataTables.svelte";
 
-  initDt();
+  initDt;
 </script>
 
 <div class="page-container">
